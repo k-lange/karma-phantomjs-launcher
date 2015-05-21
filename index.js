@@ -58,9 +58,9 @@ PhantomJSBrowser.prototype = {
   name: 'PhantomJS',
 
   DEFAULT_CMD: {
-    linux: require('phantomjs').path,
-    darwin: require('phantomjs').path,
-    win32: phantomJSExePath()
+    linux: 'phantomjs',
+    darwin: 'phantomjs',
+    win32: 'phantomjs'
   },
   ENV_CMD: 'PHANTOMJS_BIN'
 };
